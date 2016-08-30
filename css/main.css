@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 70%;
+	max-width: 800px;
+	margin: 0px auto;
+}
+img{
+	width: 100%;
+}
+.row: before, .row:after{
+	content: " ";
+	display: table;
+}
+.row:after{
+	clear:both;
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+}
+li{
+	display:inline-block;
+	margin: 20px 0;
+	padding: 0 20px;
+	list-style: none;
+}
+.linea{
+	border-right: 1px black solid
+}
+ul{
+	text-align: center;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	margin:20px 0;
+}
+hr{
+ 	background-color: black;
+ 	height: 3px;
+ 	width: 10%;
+ 	margin: 40px auto 30px auto;
+}
+p{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 110px;
+}
+.contenedor{
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.coders{
+	width: 211px;
+	height: 211px;
+	position: relative;
+	float: left;
+	margin: 15px;
+}
+.subrayado{
+	border-bottom: 3px black solid;
+	width: 60px;
+	margin: 0 20px 20px 0;
+}
+.titulo{
+	font-size: 20px;
+	margin: 20px 20px 20px 0;
+}
+.nyp{
+	position: absolute;
+	bottom: 4px;
+	right: 10px;
+	color: white;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+.img1{
+	background-image: url("../img/profile-1.png");
+}
+.img2{
+	background-image: url("../img/profile-2.png");
+}
+.img3{
+	background-image: url("../img/profile-3.png");
+}
+.img4{
+	background-image: url("../img/profile-4.png");
+}
+.img5{
+	background-image: url("../img/profile-5.png");
+}
+.img6{
+	background-image: url("../img/profile-6.png");
+}
+/*Columnas*/
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+.col-1{
+	width: 8.333333%;
+}
+.col-2{
+	width: 16.666666%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.333333%
+}
+.col-5{
+	width: 41.666666%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.333333%
+}
+.col-8{
+	width: 66.666666%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.333333%
+}
+.col-11{
+	width: 91.666666%
+}
+.col-12{
+	width: 100%
+}
